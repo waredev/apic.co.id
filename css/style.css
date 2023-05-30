@@ -6,6 +6,43 @@
     --dark: #091E3E;
 }
 
+/* logo footer */
+.logo-footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-footer img {
+    width: 40px;
+    height: 40px;
+}
+
+.card-address {
+    display: flex;
+    align-items: center;
+}
+
+.card-address-last {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-end2 {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+}
+
+.bottom-logobar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
 
 /* Navbar custom*/
 
@@ -16,7 +53,7 @@
 }
 
 .navbar-topup {
-    background: darkred;
+    background: darkred !important;
 }
 
 .navbar-second {
@@ -169,6 +206,43 @@ h6,
     transition: .5s;
 }
 
+.card-corporate:hover {
+    background-color: rgb(228, 228, 228);
+    cursor: pointer;
+
+}
+
+.intro {
+    height: 100%;
+}
+
+table td,
+table th {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: auto;
+
+}
+
+thead th {
+    color: #fff;
+}
+
+.card {
+    border-radius: .5rem;
+}
+
+.table-scroll {
+    border-radius: .5rem;
+}
+
+.table-scroll table thead th {
+    font-size: 1.25rem;
+}
+
+
+
 .sticky-top.navbar-dark .navbar-nav .nav-link {
     padding: 20px 0;
     color: white;
@@ -177,6 +251,10 @@ h6,
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
     color: #ffffff
+}
+
+.organization img {
+    width: 75rem !important;
 }
 
 .navbar-dark .navbar-brand h1 {
@@ -229,7 +307,7 @@ h6,
         height: 2px;
         bottom: -1px;
         left: 50%;
-        background: var(--primary);
+        background: red;
         transition: .5s;
     }
 
@@ -553,7 +631,7 @@ h6,
 }
 
 @media (min-width: 767.98px) {
-    .footer-about {
+    .footer-komisaris {
         margin-bottom: -75px;
     }
 }
