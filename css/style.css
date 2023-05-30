@@ -6,6 +6,24 @@
     --dark: #091E3E;
 }
 
+/* logo footer */
+.logo-footer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-footer img {
+    width: 40px;
+    height: 40px;
+}
+
+.bottom-logobar{
+    display: flex;align-items: center;
+    gap: 10px;
+}
+
+
 
 /* Navbar custom*/
 
