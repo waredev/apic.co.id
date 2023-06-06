@@ -251,6 +251,10 @@ thead th {
     font-size: 1.538rem;
     color: #FFFFFF;
 }
+.footer-title {
+    font-size: 1.238rem;
+    color: #FFFFFF;
+}
 .navbar-logo img {
     width: 60px;
     height: 60px;
@@ -273,6 +277,10 @@ thead th {
     .navbar-logo img {
         width: 40px;
         height: 40px;
+    }
+    .footer-title {
+        font-size: 0.95rem;
+        color: #FFFFFF;
     }
 }
 
