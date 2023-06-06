@@ -67,11 +67,6 @@
     color: red;
 }
 
-.navbar-logo img {
-    width: 60px;
-    height: 60px;
-}
-
 
 /*** Spinner ***/
 .spinner {
@@ -251,6 +246,34 @@ thead th {
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
     color: #ffffff
+}
+.header-title {
+    font-size: 1.538rem;
+    color: #FFFFFF;
+}
+.navbar-logo img {
+    width: 60px;
+    height: 60px;
+}
+@media only screen and (max-width: 540px) {
+    .navbar-dark .navbar-nav .nav-link:hover,
+    .navbar-dark .navbar-nav .nav-link.active {
+        color: #000000 !important;
+    }
+    .navbar-dark .navbar-nav .nav-link, 
+    .navbar-dark .navbar-nav .nav-link.show, 
+    .sticky-top.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #000000 !important;
+    }
+    .header-title {
+        font-size: 0.95rem;
+        color: #000000 !important;
+    }
+    .navbar-logo img {
+        width: 40px;
+        height: 40px;
+    }
 }
 
 .organization img {
