@@ -6,6 +6,9 @@
     --dark: #091E3E;
 }
 
+/* body {
+    font-family: 'Courier New', Courier, monospace !important;
+} */
 /* logo footer */
 .logo-footer {
     display: flex;
