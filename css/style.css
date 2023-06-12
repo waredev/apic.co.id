@@ -1,9 +1,15 @@
 /********** Template CSS **********/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
 :root {
     --primary: darkred;
     --secondary: #34AD54;
     --light: #EEF9FF;
     --dark: #091E3E;
+}
+
+@font-face {
+    font-family: "Arian";
+    src: url("../fonts/Arian\ LT\ Demi.ttf");
 }
 
 /* body {
@@ -251,7 +257,7 @@ thead th {
     color: #ffffff
 }
 .default-font {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Arian';
 }
 .header-title {
     font-size: 1.538rem;
@@ -264,6 +270,9 @@ thead th {
 .navbar-logo img {
     width: 60px;
     height: 60px;
+}
+.monserrat {
+    font-family: 'Montserrat';
 }
 @media only screen and (max-width: 540px) {
     .navbar-dark .navbar-nav .nav-link:hover,
