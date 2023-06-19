@@ -286,9 +286,8 @@ thead th {
         color: #000000 !important;
     }
     .header-title {
-        font-size: 0.95rem;
+        font-size: 1.15rem;
         color: #000000 !important;
-        display: none;
     }
     .navbar-logo img {
         width: 40px;
@@ -297,6 +296,9 @@ thead th {
     .footer-title {
         font-size: 0.6rem;
         color: #FFFFFF;
+    }
+    .nav-button {
+        margin-top: 5px;
     }
 }
 
