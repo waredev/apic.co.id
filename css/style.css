@@ -288,6 +288,7 @@ thead th {
     .header-title {
         font-size: 0.95rem;
         color: #000000 !important;
+        display: none;
     }
     .navbar-logo img {
         width: 40px;
